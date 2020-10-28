@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    active: prodMybatis
+# ${random.int}
+
+
+
+
+
+
+
+
+
+
+
+# 一个家庭有爸爸，妈妈，孩子
+#家庭叫 happy family
+#name age（父亲）
+#妈妈有两个别名
+#孩子有name，age，还有friends
+#friend 有hobby和sex

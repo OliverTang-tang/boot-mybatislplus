@@ -1,0 +1,44 @@
+server:
+  port: 8889
+
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:sss
+    time-zone: GMT+8
+
+family:
+  family-name: "happy family"
+  farther:
+    name: aodousan
+    age: 23
+  mother:
+    alias:
+      - lovely
+      - ailice
+  child:
+    name: shuaishuai
+    age: 18
+    friends:
+      - hobby: singing
+        sex: male
+      - hobby: basketball
+        sex: male
+# ${random.int}
+
+
+
+
+
+
+
+
+
+
+
+# 一个家庭有爸爸，妈妈，孩子
+#家庭叫 happy family
+#name age（父亲）
+#妈妈有两个别名
+#孩子有name，age，还有friends
+
+#friend 有hobby和sex

@@ -1,0 +1,61 @@
+server:
+  port: 8891
+
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:sss
+    time-zone: GMT+8
+  datasource:
+    primary:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: jdbc:mysql://localhost:3306/db3?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+      username: tangtang
+      password: tangtang
+    secondary:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: jdbc:mysql://localhost:3306/db4?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+      username: tangtang
+      password: tangtang
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    database: mysql
+
+
+family:
+  family-name: "happy family"
+  farther:
+    name: aodousan
+    age: 23
+  mother:
+    alias:
+      - lovely
+      - ailice
+  child:
+    name: shuaishuai
+    age: 18
+    friends:
+      - hobby: singing
+        sex: male
+      - hobby: basketball
+        sex: male
+# ${random.int}
+
+
+#配置多个数据源
+
+
+
+
+
+
+
+
+# 一个家庭有爸爸，妈妈，孩子
+#家庭叫 happy family
+#name age（父亲）
+#妈妈有两个别名
+#孩子有name，age，还有friends
+#friend 有hobby和sex

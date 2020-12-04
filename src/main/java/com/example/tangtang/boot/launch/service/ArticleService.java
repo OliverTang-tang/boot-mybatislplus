@@ -7,14 +7,14 @@ import java.util.List;
 
 public interface ArticleService {
 
-    public void saveArticle(ArticleVo article);
+     void saveArticle(ArticleVo article);
 
     void deleteArticle(Long id);
 
     void updateArticle(ArticleVo article);
 
-    public ArticleVo getArticle(Long id);
+     ArticleVo getArticle(Long id);
 
-    public List<ArticleVo> getAll();
+     List<ArticleVo> getAll();
 
 }

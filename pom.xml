@@ -92,6 +92,16 @@
 			<groupId>redis.clients</groupId>
 			<artifactId>jedis</artifactId>
 		</dependency>
+		<dependency><!--动态代理-->
+			<groupId>cglib</groupId>
+			<artifactId>cglib</artifactId>
+			<version>3.3.0</version>
+		</dependency>
+		<dependency><!--本地缓存-->
+			<groupId>org.ehcache</groupId>
+			<artifactId>ehcache</artifactId>
+			<version>3.8.1</version>
+		</dependency>
 	</dependencies>
 
 	<build>
